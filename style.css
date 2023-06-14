@@ -1,0 +1,83 @@
+/* Apply styles to the body */
+body {
+    /* In de body bepaal je opmaak van het algemene bestand */
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 50ox;
+    padding: 3%;
+    margin: 0 auto;
+    /* Margin 0 auto -> zo zet je alles in het midden */
+
+  }
+  
+  /* Style the h1 heading */
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    text-align: center;
+  }
+  
+  /* Style the <p> tags */
+  p {
+    font-family: 'Poppins', sans-serif;
+    color: #666;
+    line-height: 1.5;
+    margin: 50px;
+    text-align: center;
+  }
+  
+  /* Style the <a> tags */
+  a {
+    font-family: 'Share Tech Mono', monospace;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  /* Change the color of visited links */
+  a:visited {
+    color: #260969;
+  }
+  
+  /* Style the <img> tag */
+  img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 1%;
+  }
+
+  .picture-column{
+    background-color:pink;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+  }
+  .information-column{
+    background-color: paleturquoise;
+  }
+  .grid-container{
+    display: grid;
+    width: 600px;
+    margin: 0 auto;
+    grid-template-columns: 40% 60%;
+    column-gap: 10px;
+    border-left: 10px solid #000000;
+    border-bottom:10px solid #000000;
+
+
+  }
+
+  .button{
+    background-color: #337ab7;
+    border-radius: 5%;
+    padding: 4px;
+    border:1px solid transparent
+    
+  }
+
+.button:hover{
+    color: #1a0675;
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border:1px solid rgb(189, 217, 255);
+}
+ 
